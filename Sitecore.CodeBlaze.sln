@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{C97755A9-0847-4AF7-9150-A7DE8DE18858}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{4B0C6985-F353-4001-99A7-0F0E8B1484D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{FDCCE3AD-9D0D-461C-8231-6BC31A26D0A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VersionManager", "VersionManager", "{C5F1842C-1BF3-4CA6-99DF-EFFCDDB72448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.CodeBlaze.Feature.VersionManager", "src\Feature\VersionManager\code\SC.CodeBlaze.Feature.VersionManager.csproj", "{3B49044A-9052-4967-900E-CB8A08983438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{A6743C0C-BD1A-4568-9FE0-C1261C2903C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.CodeBlaze.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\SC.CodeBlaze.Foundation.SitecoreExtensions.csproj", "{72293891-FAF7-4735-879C-91AE6733940F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B49044A-9052-4967-900E-CB8A08983438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B49044A-9052-4967-900E-CB8A08983438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B49044A-9052-4967-900E-CB8A08983438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B49044A-9052-4967-900E-CB8A08983438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72293891-FAF7-4735-879C-91AE6733940F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72293891-FAF7-4735-879C-91AE6733940F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72293891-FAF7-4735-879C-91AE6733940F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72293891-FAF7-4735-879C-91AE6733940F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5F1842C-1BF3-4CA6-99DF-EFFCDDB72448} = {FDCCE3AD-9D0D-461C-8231-6BC31A26D0A2}
+		{3B49044A-9052-4967-900E-CB8A08983438} = {C5F1842C-1BF3-4CA6-99DF-EFFCDDB72448}
+		{A6743C0C-BD1A-4568-9FE0-C1261C2903C7} = {4B0C6985-F353-4001-99A7-0F0E8B1484D8}
+		{72293891-FAF7-4735-879C-91AE6733940F} = {A6743C0C-BD1A-4568-9FE0-C1261C2903C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4B5737-684D-4C9C-AE27-28BDD92FA07E}
+	EndGlobalSection
+EndGlobal
