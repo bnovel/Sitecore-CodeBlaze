@@ -13,10 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{FDCCE3AD-9D0D-461C-8231-6BC31A26D0A2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VersionManager", "VersionManager", "{C5F1842C-1BF3-4CA6-99DF-EFFCDDB72448}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.CodeBlaze.Feature.VersionManager", "src\Feature\VersionManager\code\SC.CodeBlaze.Feature.VersionManager.csproj", "{3B49044A-9052-4967-900E-CB8A08983438}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{A6743C0C-BD1A-4568-9FE0-C1261C2903C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.CodeBlaze.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\SC.CodeBlaze.Foundation.SitecoreExtensions.csproj", "{72293891-FAF7-4735-879C-91AE6733940F}"
@@ -27,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3B49044A-9052-4967-900E-CB8A08983438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B49044A-9052-4967-900E-CB8A08983438}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B49044A-9052-4967-900E-CB8A08983438}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B49044A-9052-4967-900E-CB8A08983438}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72293891-FAF7-4735-879C-91AE6733940F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{72293891-FAF7-4735-879C-91AE6733940F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72293891-FAF7-4735-879C-91AE6733940F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -40,8 +32,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C5F1842C-1BF3-4CA6-99DF-EFFCDDB72448} = {FDCCE3AD-9D0D-461C-8231-6BC31A26D0A2}
-		{3B49044A-9052-4967-900E-CB8A08983438} = {C5F1842C-1BF3-4CA6-99DF-EFFCDDB72448}
 		{A6743C0C-BD1A-4568-9FE0-C1261C2903C7} = {4B0C6985-F353-4001-99A7-0F0E8B1484D8}
 		{72293891-FAF7-4735-879C-91AE6733940F} = {A6743C0C-BD1A-4568-9FE0-C1261C2903C7}
 	EndGlobalSection
