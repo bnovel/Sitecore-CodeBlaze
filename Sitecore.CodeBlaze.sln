@@ -17,6 +17,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "Sitec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.CodeBlaze.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\SC.CodeBlaze.Foundation.SitecoreExtensions.csproj", "{72293891-FAF7-4735-879C-91AE6733940F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VersionManager", "VersionManager", "{DB442112-E15F-4EF7-AB31-E7CA315EBF06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.CodeBlaze.Feature.VersionManager", "src\Feature\VersionManager\code\SC.CodeBlaze.Feature.VersionManager.csproj", "{3B49044A-9052-4967-900E-CB8A08983438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consoles", "Consoles", "{DCDB31DC-B1E4-471B-B4CF-FDACBB5C14F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "src\Consoles\ConsoleApp1\ConsoleApp1.csproj", "{6EC977EB-02D2-4AE7-AD7A-71ED81D5935B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,14 @@ Global
 		{72293891-FAF7-4735-879C-91AE6733940F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72293891-FAF7-4735-879C-91AE6733940F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72293891-FAF7-4735-879C-91AE6733940F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B49044A-9052-4967-900E-CB8A08983438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B49044A-9052-4967-900E-CB8A08983438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B49044A-9052-4967-900E-CB8A08983438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B49044A-9052-4967-900E-CB8A08983438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC977EB-02D2-4AE7-AD7A-71ED81D5935B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC977EB-02D2-4AE7-AD7A-71ED81D5935B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC977EB-02D2-4AE7-AD7A-71ED81D5935B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC977EB-02D2-4AE7-AD7A-71ED81D5935B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +50,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A6743C0C-BD1A-4568-9FE0-C1261C2903C7} = {4B0C6985-F353-4001-99A7-0F0E8B1484D8}
 		{72293891-FAF7-4735-879C-91AE6733940F} = {A6743C0C-BD1A-4568-9FE0-C1261C2903C7}
+		{DB442112-E15F-4EF7-AB31-E7CA315EBF06} = {FDCCE3AD-9D0D-461C-8231-6BC31A26D0A2}
+		{3B49044A-9052-4967-900E-CB8A08983438} = {DB442112-E15F-4EF7-AB31-E7CA315EBF06}
+		{6EC977EB-02D2-4AE7-AD7A-71ED81D5935B} = {DCDB31DC-B1E4-471B-B4CF-FDACBB5C14F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC4B5737-684D-4C9C-AE27-28BDD92FA07E}

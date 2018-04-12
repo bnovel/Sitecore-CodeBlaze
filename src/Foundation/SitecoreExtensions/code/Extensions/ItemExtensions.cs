@@ -31,6 +31,16 @@ namespace SC.CodeBlaze.Foundation.SitecoreExtensions.Extensions
             return GetLanguagesNonSorted(item, returnOnlyVersionedLanguages);
         }
 
+        public static Int32 GetVersions(this Sitecore.Data.Items.Item item, Language language)
+        {
+            var versionedItem = item.Database.GetItem(item.ID, language);
+            if (!versionedItem.IsNull())
+            {
+                return versionedItem.Versions.Count;
+            }
+            return 0;
+        }
+
         private static ICollection<Language> GetLanguagesNonSorted(Item item, bool returnOnlyVersionedLanguages)
         {
             var languages = new List<Language>();
