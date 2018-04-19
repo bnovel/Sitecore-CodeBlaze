@@ -22,7 +22,8 @@ namespace SC.CodeBlaze.Feature.VersionManager.Pipelines.GetContentEditorWarnings
             if (!item.Access.CanReadLanguage())
                 return;
             var languages = item.GetLanguages();
-            args.Add("Available languages", String.Join(", ", languages.Select(x => $"{x.CultureInfo.EnglishName} ({x.Name}): Versions: {item.GetVersions(x)}").ToArray()));
+            args.Add("Available languages", String.Join(", ", 
+                languages.Select(x => $"{x.CultureInfo.EnglishName} ({x.Name}): Versions: {item.GetVersions(x)}").ToArray()));
         }
     }
 }

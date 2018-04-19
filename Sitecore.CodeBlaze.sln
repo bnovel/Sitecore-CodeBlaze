@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.CodeBlaze.Feature.Versio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consoles", "Consoles", "{DCDB31DC-B1E4-471B-B4CF-FDACBB5C14F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "src\Consoles\ConsoleApp1\ConsoleApp1.csproj", "{6EC977EB-02D2-4AE7-AD7A-71ED81D5935B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "src\Consoles\ConsoleApp1\ConsoleApp1.csproj", "{6EC977EB-02D2-4AE7-AD7A-71ED81D5935B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
